@@ -1,8 +1,7 @@
-# flask-sample-login
-a mini-minimal sample login panel in flask
+## flask-sample-login
 
 
-# $ pip install Flask
-# $ python login.py
+#####  $ pip install Flask
+#####  $ python login.py
 
-* Running on http://localhost:5000/
+###### * Running on http://localhost:5000/
