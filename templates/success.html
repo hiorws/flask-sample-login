@@ -1,0 +1,13 @@
+<!doctype html>
+<title>Logged</title>
+{% block body %}
+  <h2></h2>
+    <div class=metanav>
+    {% if not session.logged_in %}
+      <a href="{{ url_for('login') }}">No permission! Try Login</a>
+    {% else %}
+      <a href="{{ url_for('logout') }}">Successfully logged in. Click here to logout.</a>
+    {% endif %}
+    </div>
+    
+{% endblock %}
